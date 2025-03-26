@@ -1,0 +1,11 @@
+<apex:page>
+    <apex:pageBlock title="User Info">
+        <apex:pageBlockSection columns="1">
+          {!NOW()}
+          {!$User.FirstName}
+          <p>Profile ID: {!$Profile.Id}</p>
+          <p>Profile Name:{!$Profile.Name} </p>
+         
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

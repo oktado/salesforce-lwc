@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Count Parent">
+      <div class="slds-var-m-around_medium">
+        <br/>
+        {msg}
+        <br/>
+        Count of clicks: {count}
+        <br/>
+        <c-child-count onadd={add} onminus={minus}></c-child-count>
+      </div>
+    </lightning-card>
+</template>
